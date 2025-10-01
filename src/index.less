@@ -1,0 +1,91 @@
+// 🎨 Variables
+@font: sans-serif;
+@header-bg: green;
+@aside-bg: yellow;
+@content1-bg: pink;
+@content2-bg: purple;
+@content3-bg: yellowgreen;
+@footer-bg: red;
+@white: #ffffff;
+@aside-text: #b91313;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: @font;
+}
+
+.main {
+  max-width: 1320px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 20% 1fr 1fr;
+  gap: 20px;
+  grid-template-rows: 100px 200px 200px 100px;
+
+ 
+  header {
+    background-color: @header-bg;
+    grid-column: 1 / 4;
+    text-transform: uppercase;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    color: @white;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  aside {
+    background-color: @aside-bg;
+    grid-row: 2 / 4;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    color: @aside-text;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+  #content1 {
+    grid-column: 2 / 4;
+    background-color: @content1-bg;
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+  #content2 {
+    background-color: @content2-bg;
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
+    color: @white;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+  #content3 {
+    background-color: @content3-bg;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    color: @white;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+  footer {
+    background-color: @footer-bg;
+    grid-column: 1 / 4;
+    text-align: center;
+    font-size: 30px;
+    color: @white;
+    align-content: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+}

@@ -1,30 +1,22 @@
-# React Photo Gallery Grid
+# React Grid Layout with LESS
 
-A responsive photo gallery built using **React (JavaScript)** and **CSS Grid**.  
-Images are loaded from [Picsum Photos]
----
+A simple React project built using **Vite** that demonstrates a **CSS Grid** layout (header, sidebar, multiple content areas, footer), styled using the **LESS** preprocessor.
 
-## 🚀 Features
-- Built with **React + JavaScript**
-- Responsive layout using **CSS Grid**
-- Random placeholder images
-- Clean and minimal design
+## Features
 
----
+- React 19 + Vite  
+- CSS Grid layout  
+- LESS for styling (variables, nesting, etc.)  
+- Clean, minimal structure  
 
-## 📦 Installation
 
-Clone the repository:
+## Setup & Run Locally
 
-```bash
-git clone https://github.com/AdarshYadav-dev/react-photo-gallery-grid.git
-cd react-photo-gallery-grid
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/AdarshYadav-dev/react-grid-layout-less.git
+   cd react-grid-layout-less
 
-Install dependencies:
+Install dependencies
 
 npm install
-
-
-Start development server:
-
-npm start
