@@ -1,6 +1,6 @@
-# React Grid Layout with LESS
+# React Grid Layout with LESS.
 
-A simple React project built using **Vite** that demonstrates a **CSS Grid** layout (header, sidebar, multiple content areas, footer), styled using the **LESS** preprocessor.
+A simple React project built using **Vite** that demonstrates a **CSS Grid** layout (header, sidebar, multiple content areas, footer), styled using the **LESS** preprocessor..
 
 ## Features
 
